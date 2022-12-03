@@ -2,7 +2,7 @@ port: 8080
 profile: k8s
 
 image:
-  name: simple-backend
+  name: romanowalex/simple-backend
   version: v1.0
 
 resources:
@@ -14,6 +14,6 @@ resources:
     memory: 1024Mi
 
 metrics:
-  path: "/manage/prometheus"
+  path: "/backend/manage/prometheus"
   username: management
   password: passwd
