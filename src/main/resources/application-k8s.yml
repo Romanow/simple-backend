@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://postgres-service:5432/simple_backend
-    username: program
-    password: test
+    url: jdbc:postgresql://${DATABASE_HOST:postgres-service}:${DATABASE_PORT:5432}/${DATABASE_NAME:simple_backend}
+    username: ${DATABASE_USER:program}
+    password: ${DATABAES_PASSWORD:test}
     driver-class-name: org.postgresql.Driver

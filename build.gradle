@@ -32,6 +32,8 @@ dependencies {
     implementation "org.flywaydb:flyway-core"
     implementation "org.postgresql:postgresql"
 
+    implementation "io.micrometer:micrometer-registry-prometheus"
+
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
     implementation "org.jetbrains.kotlin:kotlin-reflect"
     implementation "com.fasterxml.jackson.module:jackson-module-kotlin"
