@@ -1,5 +1,7 @@
 # Simple Backend
 
+[![Build project](https://github.com/Romanow/simple-backend/actions/workflows/build.yml/badge.svg)](https://github.com/Romanow/simple-backend/actions/workflows/build.yml)
+
 ### Сборка и локальный запуск
 
 ```shell
